@@ -34,10 +34,15 @@ fn main() {
 
 fn contador_apariciones(lhs: &str, cadena_buscada: &str) -> usize{
     let mut apariciones = 0;
-    for i in 0..(lhs.len()-cadena_buscada.len()){
+    let mut i = 0;
+    while i <= (lhs.len()-cadena_buscada.len()){
         let slice = &lhs[i..i+cadena_buscada.len()];
         if  slice == cadena_buscada{
             apariciones += 1;
+            i += cadena_buscada.len(); //Saltar la secuencia una vez encontrada
+        }
+        else{
+            i += 1;
         }
     }
 
@@ -73,5 +78,14 @@ mod tests{
         let num_apariciones = contador_apariciones(cadena, secuencia);
 
         assert_eq!(num_apariciones, 2);
+    }
+    #[test]
+    fn test_sequence_4(){
+        let secuencia = "CGGTAC";
+        let cadena = "TTACGACGGTACTGAACGGTACTGACGGTAC";
+
+        let num_apariciones = contador_apariciones(cadena, secuencia);
+
+        assert_eq!(num_apariciones, 3);
     }
 }
