@@ -16,7 +16,7 @@ use std::fs;
 fn main() {
     let filepath = "Dia2.txt";
 
-    let strings = fs::read_to_string(filepath).expect("nanai");
+    let strings = fs::read_to_string(filepath).expect("El archivo no existe o no se puede abrir");
     let suma = get_suma_from_strings(strings);
 
     println!("Suma total: {suma}");
