@@ -1,0 +1,500 @@
+nop
+acc 92
+nop
+nop
+jmp 32
+nop
+nop
+nop
+nop
+nop
+nop
+acc 52
+jmp 100
+acc 32
+nop
+nop
+acc 97
+nop
+acc -18
+acc -58
+acc 49
+acc 49
+jmp -12
+nop
+nop
+nop
+nop
+acc 26
+nop
+acc 85
+nop
+acc 78
+nop
+nop
+acc 2
+acc -98
+acc 94
+nop
+nop
+nop
+jmp 2
+nop
+nop
+acc 2
+jmp -30
+acc 27
+nop
+acc 32
+acc 12
+nop
+nop
+nop
+nop
+acc 2
+nop
+nop
+nop
+acc -12
+nop
+nop
+nop
+nop
+acc -54
+acc 26
+nop
+nop
+acc 86
+nop
+nop
+acc 75
+nop
+acc -97
+nop
+acc 62
+acc -73
+nop
+acc -16
+acc 65
+acc 60
+acc 40
+nop
+acc -11
+nop
+nop
+acc -35
+acc 28
+jmp 15
+acc -1
+acc -62
+acc -25
+acc -91
+nop
+acc -58
+nop
+nop
+nop
+nop
+nop
+nop
+acc 74
+nop
+acc 71
+acc -42
+acc -32
+acc 57
+acc 12
+acc -18
+jmp 300
+acc -80
+nop
+acc 31
+nop
+nop
+acc 33
+acc -11
+acc 41
+acc -88
+acc 4
+nop
+jmp -40
+nop
+nop
+nop
+nop
+acc 46
+nop
+nop
+acc 13
+nop
+nop
+nop
+nop
+nop
+acc -49
+nop
+nop
+nop
+acc -58
+nop
+acc -37
+nop
+nop
+nop
+acc -70
+acc -60
+nop
+acc 97
+acc 31
+nop
+acc 57
+acc 32
+nop
+acc 6
+acc 11
+acc -68
+nop
+nop
+nop
+acc 58
+nop
+acc -93
+nop
+nop
+acc 2
+acc 52
+nop
+nop
+acc -75
+acc 39
+nop
+acc 34
+nop
+nop
+acc -20
+acc -3
+acc -85
+nop
+acc 34
+nop
+acc -40
+nop
+nop
+nop
+nop
+acc 13
+nop
+nop
+nop
+acc 39
+acc -66
+nop
+acc -85
+acc 67
+acc 53
+acc 86
+nop
+nop
+nop
+nop
+acc -13
+nop
+acc -4
+nop
+acc -19
+acc -90
+acc -75
+acc 5
+acc -34
+nop
+acc -71
+acc 26
+acc -43
+nop
+acc -89
+acc -62
+acc -36
+nop
+nop
+nop
+acc -2
+acc -87
+nop
+nop
+acc -74
+acc -76
+acc 16
+acc 56
+acc -79
+nop
+nop
+nop
+nop
+nop
+nop
+acc -30
+acc -72
+nop
+nop
+nop
+acc 45
+acc 7
+acc -57
+nop
+nop
+nop
+acc 60
+nop
+acc 25
+acc 52
+nop
+acc -75
+acc -44
+nop
+acc 5
+acc -48
+nop
+acc 48
+nop
+acc -5
+acc 97
+acc 52
+nop
+acc -5
+nop
+nop
+nop
+acc -4
+nop
+nop
+nop
+acc 39
+nop
+nop
+acc -12
+acc -86
+acc -93
+acc 88
+nop
+nop
+nop
+nop
+nop
+nop
+acc 5
+nop
+nop
+nop
+acc 99
+acc -28
+acc -7
+nop
+nop
+acc -48
+nop
+acc 84
+nop
+nop
+nop
+acc 63
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+acc 54
+nop
+nop
+nop
+acc -65
+nop
+acc -14
+acc 79
+acc 55
+acc -60
+acc -19
+nop
+acc -15
+nop
+nop
+nop
+acc 21
+acc 82
+nop
+acc 27
+acc 86
+acc -64
+nop
+acc 57
+acc 33
+nop
+acc 23
+nop
+acc -32
+nop
+acc 63
+nop
+acc 4
+nop
+acc -63
+acc 36
+nop
+acc 62
+nop
+acc -58
+nop
+acc 4
+nop
+acc 4
+acc 49
+nop
+acc 92
+nop
+acc 21
+acc -20
+nop
+acc -53
+acc 93
+nop
+acc -68
+nop
+acc 61
+nop
+acc -10
+acc -71
+acc 86
+acc 3
+nop
+nop
+nop
+nop
+nop
+acc -6
+nop
+acc -34
+nop
+acc -54
+acc -55
+nop
+nop
+acc -30
+acc -61
+nop
+acc 39
+nop
+nop
+acc 92
+nop
+nop
+nop
+nop
+acc 64
+acc -85
+nop
+nop
+acc 53
+nop
+nop
+nop
+nop
+nop
+acc -88
+acc -29
+acc 96
+acc 24
+nop
+nop
+acc 83
+acc 41
+acc 26
+acc -46
+acc 85
+acc 41
+jmp -90
+acc -95
+nop
+nop
+acc 89
+acc 75
+acc 81
+acc 83
+nop
+acc -24
+nop
+nop
+nop
+acc 92
+nop
+nop
+nop
+acc -8
+acc -83
+nop
+acc 45
+nop
+acc 43
+nop
+acc -38
+acc 80
+acc -15
+nop
+acc 93
+acc -99
+acc -53
+nop
+acc -5
+nop
+acc 29
+acc -50
+acc 35
+acc 10
+acc -61
+nop
+acc 29
+nop
+acc -86
+nop
+acc 69
+acc -84
+acc 7
+nop
+nop
+nop
+acc -36
+acc -91
+nop
+acc 13
+nop
+acc 89
+nop
+acc 2
+acc -65
+nop
+nop
+nop
+nop
+nop
+acc -25
+nop
+acc 74
+acc 66
+acc 25
+acc 4
+acc 12
+acc -31
+nop
+nop
+acc -89
+nop
+acc 56
+nop
+acc 38
+acc 23
+nop
+acc 3
+acc 28
+acc 95
+acc -58
+acc -49
