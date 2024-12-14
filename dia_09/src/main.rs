@@ -97,7 +97,7 @@ fn contar_unos(numero: u8) -> u8{
 
 fn main() {
     let mut trineo = trineOS::new();
-    let ruta = "Dia9_og.txt";
+    let ruta = "Dia9.txt";
 
     let programa = fs::read_to_string(ruta).expect("No se pudo abrir el archivo").trim().to_string();
     let programa = chars_to_bin(programa.chars());
