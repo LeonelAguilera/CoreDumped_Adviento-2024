@@ -22,19 +22,21 @@ struct Maquina{
     pc: usize,
     stack: Vec<usize>,
     rom: Vec<char>,
+    stdout: String,
 }
 
 impl Maquina {
     fn new(programa: Vec<char>) -> Self{
-        Maquina { memoria: [0; RAM_SIZE], puntero: 0, pc: 0, stack: Vec::new(), rom: programa}
+        Maquina { memoria: [0; RAM_SIZE], puntero: 0, pc: 0, stack: Vec::new(), rom: programa, stdout: String::new()}
     }
 
-    fn ejecutar_programa(&mut self){
+    fn ejecutar_programa(&mut self) -> String{
         while self.pc < self.rom.len(){
             let instruccion_actual = self.rom[self.pc];
             //println!("{}: '{}'&{} - {:?}", self.pc, self.puntero, instruccion_actual, self.memoria);
             self.ejecutar_instruccion(instruccion_actual);
         }
+        return self.stdout.clone();
     }
 
     fn ejecutar_instruccion(&mut self, instruccion: char){
@@ -87,6 +89,7 @@ impl Maquina {
     }
     fn escribir_caracter(&mut self){
         print!("{}", self.memoria[self.puntero] as char);
+        self.stdout.push(self.memoria[self.puntero] as char);
         self.pc += 1;
     }
     fn leer_caracter(&mut self){
@@ -124,5 +127,7 @@ fn main() {
     let programa = fs::read_to_string(ruta).expect("No se pudo abrir el archivo");
 
     let mut intérprete = Maquina::new(programa.chars().collect());
-    intérprete.ejecutar_programa();
+    let respuesta = intérprete.ejecutar_programa();
+
+    let _ = fs::write("Receta.txt", respuesta);
 }
